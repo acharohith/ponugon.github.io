@@ -1,4 +1,4 @@
-.profile h1 {
+h1#profile.navbar-header {
     font-weight: 600;
     letter-spacing: -2px;
     font-size: 3em;
