@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en' >
+<head>
+	<meta charset='UTF-8' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>Nikhil Ponugoti</title>
+	  <script src="http://code.angularjs.org/1.2.14/angular.js"></script>
+  <script src="http://code.angularjs.org/1.2.14/angular-route.js"></script>
+	
+	<link rel='stylesheet' href='css/bootstrap.min.css'>
+	<link rel="stylesheet" href="css\font-awesome-4.6.3\css/font-awesome.min.css">
+	<link rel='stylesheet' href='css/style.css'>
+	<script src="app.js"></script>
+</head>
+<body ng-app="website">
+
+	<div class='container'>
+		
+		<h1 class='text-center' id='profile'> Hi, I'm NIKHIL <i class="fa fa-smile-o" aria-hidden="true"></i></h1>
+	</div>		
+	<div class='col-md-12 '>
+  		<ul class='list-inline center-block text-center'>
+			<li class=''><a href="https://twitter.com/nikhil_p8" ><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
+			<li class=''><a href="https://github.com/ponugon" ><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+  		</ul>
+  	</div>		
+	<hr class='col-md-6 col-md-offset-3 horizontalRow'>
+	<div class='col-md-12'>
+  		<ul class='list-inline center-block text-center'>
+			<li><a href="#/writing" ><h3 id='profile'>writing</h3></a></li>
+			<li><a href="#/paintings" ><h3 id='profile'>paintings</h3></a></li>
+			<li><a href="#/books" ><h3 id='profile'>books</h3></a></li>
+  		</ul>
+  	</div>			
+	<hr class='col-md-6 col-md-offset-3 horizontalRow'>
+
+	<div ng-view class='main ng-cloak'></div>
+  	
+
+    <footer class="navbar-default navbar-fixed-bottom">
+  		<div class="container-fluid text-center">
+    	<span>Made with </span><img id='footerImg' src="/images/angular.svg">
+        <ul>
+  		</div>
+	</footer>
+</body>
+</html>
