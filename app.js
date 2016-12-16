@@ -22,7 +22,7 @@
 
 app.controller('writingController', ['$scope', function($scope) {
 
-    $scope.heading = 'Add / Edit Customer';
+    $scope.heading = '';
 
 }]);
 
@@ -66,118 +66,118 @@ app.controller('paintingsController', ['$scope', function($scope){
 
 app.controller('booksController', ['$scope', function($scope){
     $scope.books = [{
-      'title':'India After Gandhi',
+      'title':'India After Gandhi :',
       'img':'/images/b1.jpg',
       'author':'Ramchandra Guha'
       },
       {
-      'title':'Gandhi Before India',
+      'title':'Gandhi Before India :',
       'img':'/images/b2.jpg',
       'author':'Ramchandra Guha'
       },
       {
-      'title':'Wings of Fire: An Autobiography',
+      'title':'Wings of Fire: An Autobiography :',
       'img':'/images/b3.jpg',
       'author':'Kalam, A.P.J. Abdul'
       },
       {
-      'title':'Inferno',
+      'title':'Inferno :',
       'img':'/images/b4.jpg',
       'author':'Dan Brown'
       },
       {
-      'title':'The White Tiger',
+      'title':'The White Tiger :',
       'img':'/images/b5.jpg',
       'author':'Aravind Adiga'
       },
       {
-      'title':'The Glass Palace',
+      'title':'The Glass Palace :',
       'img':'/images/b6.jpg',
       'author':'Amitav Ghosh'
       },
       {
-      'title':'Quiet: The power of introverts in a world that cant stop speaking',
+      'title':'Quiet :',
       'img':'/images/b7.jpg',
       'author':'Susan Caine'
       },
       {
-      'title':'The Pleasure of Finding Things Out: The Best Short Works of Richard Feynman',
+      'title':'The Pleasure of Finding Things Out :',
       'img':'/images/b8.jpg',
       'author':'Carl Feynman and Richard Feynman'
       },
       {
-      'title':'Surely You are Joking, Mr. Feynman!: Adventures of a Curious Character',
+      'title':'Surely You are Joking, Mr. Feynman!: :',
       'img':'/images/b9.jpg',
-      'author':'zzzzzzz'
+      'author':'Richard Feynman'
       },
       {
-      'title':'The World Is Flat: A Brief History of the Twenty-first Century',
+      'title':'The World Is Flat :',
       'img':'/images/b10.jpg',
       'author':'Friedman, Thomas L.'
       },
       {
-      'title':'The Complete Calvin and Hobbes',
+      'title':'The Complete Calvin and Hobbes :',
       'img':'/images/b11.jpg',
       'author':'Watterson, Bill'
       },
       {
-      'title':'Kim',
+      'title':'Kim :',
       'img':'/images/b12.jpg',
       'author':'Kipling, Rudyard'
       },
       {
-      'title':'The Complete Sherlock Holmes',
+      'title':'The Complete Sherlock Holmes :',
       'img':'/images/b13.jpg',
       'author':'Doyle, Arthur Conan'
       },
       {
-      'title':'The Monk Who Sold His Ferrari ',
+      'title':'The Monk Who Sold His Ferrari : ',
       'img':'/images/b14.jpg',
       'author':'Sharma, Robin S.'
       },
       {
-      'title':'The Da Vinci Code ',
+      'title':'The Da Vinci Code : ',
       'img':'/images/b15.jpg',
       'author':'Brown, Dan'
       },
       {
-      'title':'Digital Fortress ',
+      'title':'Digital Fortress : ',
       'img':'/images/b16.jpg',
       'author':'Brown, Dan'
       },
       {
-      'title':'The Lost Symbol',
+      'title':'The Lost Symbol :',
       'img':'/images/b17.jpg',
       'author':'Brown, Dan'
       },
       {
-      'title':'The Alchemist',
+      'title':'The Alchemist :',
       'img':'/images/b18.jpg',
       'author':'Coelho, Paulo'
       },
       
       {
-      'title':'Deception Point ',
+      'title':'Deception Point : ',
       'img':'/images/b19.jpg',
       'author':'Brown, Dan'
       },
       {
-      'title':'How to Win Friends and Influence People',
+      'title':'How to Win Friends and Influence People :',
       'img':'/images/b20.jpg',
       'author':'Carnegie, Dale'
       },
       {
-      'title':'Managing Oneself',
+      'title':'Managing Oneself :',
       'img':'/images/b21.jpg',
       'author':'Drucker, Peter F.'
       },
       {
-      'title':'Five Point Someone',
+      'title':'Five Point Someone :',
       'img':'/images/b22.jpg',
       'author':'Bhagat, Chetan'
       },
       {
-      'title':'Rich Dad, Poor Dad',
+      'title':'Rich Dad, Poor Dad :',
       'img':'/images/b23.jpg',
       'author':'Robert T.Kiyosaki'
       }];
