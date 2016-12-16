@@ -41,3 +41,7 @@ div.container-fluid.text-center {
 span.author.ng-binding {
     padding-left: inherit;
 }
+
+span.col-md-3.col-md-offset-3.ng-binding {
+    padding-left: inherit;
+}

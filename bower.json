@@ -1,0 +1,17 @@
+{
+  "name": "ponugon.github.io",
+  "homepage": "https://github.com/ponugon/ponugon.github.io",
+  "authors": [
+    "nikhil.ponugoti <nikhil.ponugoti@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
